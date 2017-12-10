@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.selenium.training.TestNgPrg">
+       <methods>
+        <include name="bing" />
+        <include name="gmail" />
+      <!--   <exclude name="hotmail" /> -->
+      </methods>
+       </class>
+      <!--  <class name="com.selenium.training.TestNgPrg">
+       <methods>
+        <include name="bing" />
+        <include name="gmail" />
+     
+      </methods>
+       </class> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
